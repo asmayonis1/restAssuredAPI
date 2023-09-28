@@ -23,8 +23,8 @@ public class DemoblazeAPITest {
 
         // Assertions for login response
         response.then()
-                .statusCode(200) // Check for a successful response status code
-                .contentType(ContentType.JSON); // Check if the response is in JSON format
+                .statusCode(200) 
+                .contentType(ContentType.JSON); 
     }
 
     @Test
@@ -45,7 +45,7 @@ public class DemoblazeAPITest {
 
         // Assertions for signup response
         response.then()
-                .statusCode(200) // Check for a successful response status code
-                .contentType(ContentType.JSON); // Check if the response is in JSON format
+                .statusCode(200) 
+                .contentType(ContentType.JSON); 
     }
 }
